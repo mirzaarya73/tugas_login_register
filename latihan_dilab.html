@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DATA MASUK</title>
+</head>
+<body>
+	<form>
+		<h3><p>Registari Mahasiswa</p></h3>
+		<table>
+			<tr>
+				<td>Username</td>
+				<td>:</td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="jenis-kelamin" required> <label>Laki-Laki</label>
+                    <input type="radio" name="jenis-kelamin" required> <label>Perempuan</label>
+				</td>
+			</tr>
+			<tr>
+				<td>Alamat</td>
+				<td>:</td>
+				<td><textarea name="alamat" placeholder="aaaa"></textarea></td>
+			</tr>
+			<tr>
+				<td>Jurusan</td>
+				<td>:</td>
+				<td><select name="jurusan">
+					<option>RPL</option>
+					<option>PGSD</option>
+					<option>TEKKOM</option>
+					<option>PGPAUD</option>
+					<option>Multimedia</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>URL</td>
+				<td>:</td>
+				<td><input type="url" name="url"></td>
+			</tr>
+			<tr>
+				<td>Number</td>
+				<td>:</td>
+				<td><input type="number" name="file"></td>
+			</tr>
+			<tr>
+				<td>Color</td>
+				<td>:</td>
+				<td><input type="color" name="file"></td>
+			</tr>
+			<tr>
+				<td>Date</td>
+				<td>:</td>
+				<td><input type="date" name="file"></td>
+			</tr>
+			<tr>
+				<td>Range</td>
+				<td>:</td>
+				<td><input type="range" name="range"></td>
+			</tr>
+			<tr>
+				<td>Upload</td>
+				<td>:</td>
+				<td><input type="file" name="file"></td>
+			</tr>
+		</table>
+		<input type="submit" name="submit">
+		<input type="reset" name="reset">
+	</form>
+</body>
+</html>
